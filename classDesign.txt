@@ -1,0 +1,16 @@
+Class: Job
+members:
+    Company string
+    Job title string 
+    Start year int
+    End year int
+
+behaviors:
+Display job info - "Job title (Company) StartYear-EndYear"
+
+Class: Resume
+    name string
+    List of past jobs list
+
+Behaviors:
+    Display resume, name first, followed be each job
