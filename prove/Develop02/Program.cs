@@ -49,7 +49,7 @@ class Program
         }
 
 
-        void UX()
+        void UI()
         {
             string userInput = null;
             while(userInput != "5")
@@ -93,7 +93,7 @@ class Program
 
         }
 
-    UX();
+    UI();
 
     }
 
