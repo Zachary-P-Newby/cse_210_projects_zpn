@@ -1,7 +1,7 @@
 public class Scripture{
 
     //Attributes
-    private Reference _reference;
+    public Reference _reference;
 
     private List<Word> _wordList = new List<Word>();
 
@@ -11,12 +11,12 @@ public class Scripture{
 
     //Constructor
 
-    public Scripture(Reference reference, String verseText){
+    public Scripture(Reference reference, String text){
 
         _reference = reference;
 
 
-        var result = verseText.Split(" ");
+        var result = text.Split(" ");
 
          foreach(String item in result){
            _wordList.Add(new Word(item));
