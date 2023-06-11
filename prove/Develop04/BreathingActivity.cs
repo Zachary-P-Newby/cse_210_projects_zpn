@@ -32,6 +32,7 @@ public class BreathingActivity: Activity{
         DisplayActivityOverview();
         Console.Clear();
         SetActivityTime();
+        Prepare();
 
         /* ---------Activity Start----------- */
         DisplayStartMessage();
