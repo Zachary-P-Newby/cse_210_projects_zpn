@@ -1,0 +1,1 @@
+Any where a base class can be used, a class derived from it should be useable as well.
