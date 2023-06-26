@@ -116,7 +116,7 @@ public class Menu {
         Console.ReadLine();
     }
 
-    public void ListGoals(){
+    private void ListGoals(){
         int _count = 0;
         foreach(Goal goal in _goalList){
             _count += 1;
@@ -173,7 +173,7 @@ public class Menu {
     }
 
     
-    public void SaveGoalList(){
+    private void SaveGoalList(){
         List<String> _stringList = new List<string>();
 
         foreach(Goal goal in _goalList){
