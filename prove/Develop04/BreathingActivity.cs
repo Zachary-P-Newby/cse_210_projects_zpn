@@ -21,7 +21,7 @@ public class BreathingActivity: Activity{
 
     public BreathingActivity(int duration, int repetitions){
         _activityDurationSeconds = duration;
-        this._activityRepetitions = repetitions;
+        _activityRepetitions = repetitions;
         _startMessage = $"The {_activityName} starts now.";
     }
 
