@@ -1,0 +1,5 @@
+Remember:
+
+private type attirbute {get; set;}
+
+makse get and set functions automatically.
