@@ -25,22 +25,13 @@ public class Address{
     }
 
     public string GetFullAddress(){
-        return $"{_streetNumber} {_streetName}, {_city}, {_stateProvince}, {_country}";
+        return $"{_streetNumber} {_streetName} {_city}, {_stateProvince}, {_country}";
+    }
+
+    public string GetShortAddress(){
+        return $"{_streetNumber} {_streetName} {_city}";
     }
 
     /* I see no need for all the getters and setters with this class.
     } */
-
-    public bool IsUSA(){
-        if(_country == "USA"){
-            return true;
-        }
-        else{
-            return false;
-        }
-    }
-
-    public string GetShortAddress(){
-        return $"{_streetNumber} {_streetName}, {_city}";
-    }
 }
