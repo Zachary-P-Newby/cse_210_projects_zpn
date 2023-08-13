@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
+        
+        Menu ProgramMenu = new Menu();
+
+        ProgramMenu.RunMenu();
     }
 }
