@@ -4,6 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
+        enum inventory{
+            Sword,
+            Bottle,
+            Deku Nuts
+        }
+        Console.WriteLine(inventory.Bottle);
     }
 }
